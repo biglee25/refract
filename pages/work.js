@@ -31,7 +31,7 @@ export default function Home({ data }) {
                 const { medium = {} } = thumbnails;
                 return (
               <div key={id} className="m-4 p-4 shadow-md h-full rounded-lg bg-gray-900 text-white">
-                <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`} target="_blank">
+                <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`} target="_blank" rel="noreferrer">
                     <img width={medium.width} height={medium.height} src={medium.url} alt="Youtube Image" className="w-full rounded-lg" />
                     <h3 className="text-center pt-8">{ title }</h3>
                 </a>

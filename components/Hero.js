@@ -17,7 +17,7 @@ export default function Home() {
     <source
       src="/images/video.mp4"
       type="video/mp4"
-      autoplay
+      autoPlay
     />
     Your browser does not support the video tag.
   </video>

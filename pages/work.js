@@ -21,7 +21,7 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container mx-auto">
-        <h1 className="text-center text-6xl font-bold py-12">
+        <h1 className="text-center text-6xl font-bold py-12 text-white">
           Work
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">

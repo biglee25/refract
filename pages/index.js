@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import Hero from '../components/Hero'
+
 const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
 export async function getServerSideProps() {
@@ -20,8 +22,9 @@ export default function Home({ data }) {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Hero />
       <div className="container mx-auto">
-        <h1 className="text-center text-6xl font-bold py-12">
+        <h1 className="text-center text-6xl font-bold py-12 text-white">
           Featured Work
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
@@ -37,7 +40,6 @@ export default function Home({ data }) {
                 </a>
               </div>
           )})}
-
         </div>
       </div>
     </>

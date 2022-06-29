@@ -58,7 +58,7 @@ export default function Navbar() {
                 </button>
             </div>
             <div className="overflow-y-hidden fixed md:hidden absolute top-0 left-0 right-0">
-                <div className={(open ? "flex opacity-100" : "opacity-0")}>
+                <div className={(open ? "flex opacity-100 z-50" : "opacity-0 z-0")}>
                     <div className="w-full h-screen fixed overflow-y-hidden bg-gray-800 text-white flex flex-col items-center justify-center z-40">
                         <ul className="text-center font-bold text-4xl leading-loose">
                             <li className="px-4">

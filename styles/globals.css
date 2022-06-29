@@ -5,3 +5,11 @@
 html {
     background-color: #fff;
 }
+
+h1 {
+    @apply font-bold leading-snug text-4xl md:text-5xl lg:text-7xl md:w-3/4 tracking-tight
+}
+
+.button {
+    @apply w-full md:w-1/2 text-white mt-12 p-5 text-center cursor-pointer
+}

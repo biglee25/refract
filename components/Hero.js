@@ -1,3 +1,4 @@
+import Link from 'next/Link'
 import Image from 'next/image'
 import logo from '../public/images/logo.svg'
 
@@ -12,7 +13,7 @@ export default function Home() {
             width={700}
             height={520}
             layout="fixed"
-            className='text-white z-30 blur-md animate-pulse'
+            className='text-white z-30 animate-pulse opacity-20'
             />
     </div>
     <div className="relative flex items-center justify-center p-5 text-6xl font-black text-white z-30">
@@ -21,6 +22,10 @@ export default function Home() {
 
     <div className="px-5 text-center text-1xl font-light text-white z-30 md:w-1/2">
             Delivering perfectly crafted video edits that will make you stand out from the crowd and get you noticed.
+            <Link href="/about">
+                <div className='button bg-red-500 mx-auto'>Find Out More</div>
+           </Link>
+
     </div>
     <video
         autoPlay

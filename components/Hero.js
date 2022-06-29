@@ -23,7 +23,9 @@ export default function Home() {
     <div className="px-5 text-center text-1xl font-light text-white z-30 md:w-1/2">
             Delivering perfectly crafted video edits that will make you stand out from the crowd and get you noticed.
             <Link href="/about">
+                    <a>
                 <div className='button bg-red-500 mx-auto'>Find Out More</div>
+                </a>
            </Link>
 
     </div>

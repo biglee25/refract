@@ -13,7 +13,9 @@ export default function About() {
                     <h1 className='pb-5'>Expertly Delivered.</h1>
                     <p>All my video edits are created using the latest Adobe After Effects and Adobe Premiere Pro to create seamless videos for any platform.</p>
                     <Link href="/work">
+                      <a>
                       <div className='button bg-black'>View Work</div>
+                      </a>
                     </Link>
                 </div>
                 <div className='flex flex-col justify-center relative shadow-lg'>

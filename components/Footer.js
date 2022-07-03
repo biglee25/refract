@@ -22,7 +22,7 @@ export default function Footer() {
             jackattwater21@gmail.com</a>
           </div>
           <div className="py-4">
-          <a href="https://www.facebook.com/refract" target="_blank" className="text-white">
+          <a href="https://www.facebook.com/refract" target="_blank" rel="noreferrer" className="text-white">
             <FaFacebookSquare size="2rem" className="mx-auto mb-4 text-red-500" />
             Refract</a>
           </div>

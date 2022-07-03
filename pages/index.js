@@ -2,6 +2,8 @@ import Head from 'next/head'
 
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Adobe from '../components/Adobe'
+import Footer from '../components/Footer'
 
 const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
@@ -25,7 +27,8 @@ export default function Home({ data }) {
       </Head>
       <Hero />
       <About />
-      <div className="container mx-auto">
+      <Adobe />
+      <div className="container mx-auto my-12">
         <h1 className="text-center text-6xl font-bold py-12 text-black mx-auto">
           Featured Work
         </h1>
@@ -44,6 +47,7 @@ export default function Home({ data }) {
           )})}
         </div>
       </div>
+      <Footer />  
     </>
   )
 }

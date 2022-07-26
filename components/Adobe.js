@@ -8,48 +8,37 @@ import Illustrator from '../public/images/Illustrator_icon.svg'
 export default function Adobe() {
   return (
     <div>
-        <section className="container mx-auto md:my-48">
-                <div className="flex flex-col justify-center items-center text-center font-light">
-                    <h1>Utilising The Latest <span className='text-red-500'>Technologies</span> In Motion Graphics</h1>
-                
+        <section className="container mx-auto md:my-48 background-right">
+            <div className='grid grid-cols-1 md:grid-cols-2 px-5'>
+                <div className="flex flex-col justify-center text-center md:text-left font-light">
+                    <h1 className='pb-5'>The Industry <span className='text-red-500'>Standard</span></h1>
+                    <p>Adobe software is widely known to be the industry standard and the benchmark for all creative work.</p>
+                    <br />
+                    <p>I use the latest Adobe software to create mind blowing visualisations that capture the imagination. Using these tools your ideas become limitless.</p>
                 </div>
-                <div className="my-12 px-5 grid grid-cols-1 md:grid-cols-4 gap-12 text-center">
-                    <div>
+                <div className='inline-grid grid-cols-2 gap-4 p-12'>
                         <Image
                             src={Premier}
                             alt="Premiere Pro"
-                            width={200}
-                            height={200}
-                            layout="fixed"
+                            layout="responsive"
                         />
-                    </div>
-                    <div>
                         <Image
                             src={AfterEffects}
                             alt="After Effects"
-                            width={200}
-                            height={200}
-                            layout="fixed"
+                            layout="responsive"
                         />
-                    </div>
-                    <div>
                         <Image
                             src={Photoshop}
                             alt="Photoshop"
-                            width={200}
-                            height={200}
-                            layout="fixed"
+                            layout="responsive"
                         />
-                    </div>
-                    <div>
                         <Image
                             src={Illustrator}
                             alt="Illustrator"
-                            width={200}
-                            height={200}
-                            layout="fixed"
+                            layout="responsive"
                         />
-                    </div>
+                </div>
+
             </div>
         </section>
     </div>

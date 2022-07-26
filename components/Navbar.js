@@ -31,25 +31,25 @@ export default function Navbar() {
                         </a>
                     </Link>
                 </div>
-                <ul className="w-auto hidden md:items-center md:justify-around md:flex ml-auto text-white">
+                <ul className="w-auto hidden md:items-center md:justify-around md:flex ml-auto text-white pr-5">
                     <li className="px-4">
                         <Link href="/">
-                            <a className="hover:text-orange-400">Home</a>
+                            <a className="text-white hover:text-red-400">Home</a>
                         </Link>
                     </li>
                     <li className="px-4">
                         <Link href="/about">
-                            <a className="hover:text-orange-400">About</a>
+                            <a className="text-white hover:text-red-400">About</a>
                         </Link>
                     </li>
                     <li className="px-4">
                         <Link href="/work">
-                                <a className=" hover:text-orange-400">Work</a>
+                                <a className="text-white hover:text-red-400">Work</a>
                         </Link>
                     </li>
                     <li className="px-4">
                         <Link href="/contact">
-                                <a className="hover:text-orange-400">Contact</a>
+                                <a className="text-white hover:text-red-400">Contact</a>
                         </Link>
                     </li>
                 </ul>

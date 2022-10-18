@@ -8,7 +8,7 @@ import Illustrator from '../public/images/Illustrator_icon.svg'
 export default function Adobe() {
   return (
     <div>
-        <section className="container mx-auto md:my-48 background-right">
+        <section className="container mx-auto md:my-48">
             <div className='grid grid-cols-1 md:grid-cols-2 px-5'>
                 <div className="flex flex-col justify-center text-center md:text-left font-light">
                     <h1 className='pb-5'>The Industry <span className='text-red-500'>Standard</span></h1>

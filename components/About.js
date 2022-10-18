@@ -6,7 +6,7 @@ import logo from '../public/images/video-edit.jpg'
 export default function About() {
   return (
     <div>
-        <section className="container mx-auto background-left">
+        <section className="container mx-auto">
             <div className="my-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="flex flex-col justify-center text-center md:text-left font-light order-1 md:order-2">
                     <h1>Perfect<span className='text-red-500'> Edits.</span></h1>

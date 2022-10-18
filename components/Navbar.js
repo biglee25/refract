@@ -16,7 +16,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="fixed w-screen h-24 bg-black flex items-center justify-between z-50">
+            <div className="fixed w-screen h-24 bg-black flex items-center justify-between z-50 top-0">
                 <div>
                     <Link href="/">
                         <a className="flex flex-row items-center">

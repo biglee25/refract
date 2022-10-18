@@ -17,7 +17,7 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Work</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container mx-auto">

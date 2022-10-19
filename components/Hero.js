@@ -9,7 +9,7 @@ export default function Home() {
                 <div className='flex flex-col items-center justify-around p-4'>
                         <h2 className='text-white font-extralight mb-24'>PORTFOLIO</h2>
                         <div>
-                        <h2 className='text-white'>JACK ATTWATER</h2>
+                        <h2 className='text-white text-center'>JACK ATTWATER</h2>
                         <h1 className='text-black font-extralight bg-red-500 p-4 mt-8 w-max'>VFX EDITOR</h1>
                         </div>
                 </div>

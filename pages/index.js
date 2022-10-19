@@ -5,17 +5,17 @@ import About from '../components/About'
 import Adobe from '../components/Adobe'
 import Footer from '../components/Footer'
 
-const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
+// const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
-export async function getServerSideProps() {
-  const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=4&playlistId=PLdQPJkxOG01pHhCG2NlazMqCSiW_95ytj&key=${process.env.YOUTUBE_API_KEY}`)
-  const data = await res.json();
-  return {
-    props: {
-      data
-    }
-  }
-}
+// export async function getServerSideProps() {
+//   const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=4&playlistId=PLdQPJkxOG01pHhCG2NlazMqCSiW_95ytj&key=${process.env.YOUTUBE_API_KEY}`)
+//   const data = await res.json();
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
 export default function Home({ data }) {
 
@@ -34,7 +34,7 @@ export default function Home({ data }) {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
 
-          {data.items.map(({ id, snippet = {} }) => {
+          {/* {data.items.map(({ id, snippet = {} }) => {
                 const { title, thumbnails = {}, resourceId = {} } = snippet;
                 const { medium = {} } = thumbnails;
                 return (
@@ -44,7 +44,7 @@ export default function Home({ data }) {
                     <h3 className="text-center pt-8">{ title }</h3>
                 </a>
               </div>
-          )})}
+          )})} */}
         </div>
       </div>
       <Footer />  

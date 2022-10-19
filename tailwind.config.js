@@ -4,9 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      // backgroundImage: theme => ({
-      //   'hero-bg': "url('/images/video.mp4')",
-      //  }),
+      backgroundImage: theme => ({
+        'hero-bg': "url('/images/profile.png')",
+       }),
        colors: {
         white: '#fff',
         black: '#000',

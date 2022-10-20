@@ -13,7 +13,7 @@ export default function Card() {
                 <div className="flex flex-col items-center rounded-lg">
                 <iframe src="https://www.youtube.com/embed/TLBjEi_bi0U"
                     className="w-full h-96 mx-auto"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                     loading="lazy">
@@ -22,7 +22,7 @@ export default function Card() {
                 <div className="flex flex-col items-center rounded-lg">
                 <iframe src="https://www.youtube.com/embed/TLBjEi_bi0U"
                     className="w-full h-96 mx-auto"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                     loading="lazy">
@@ -31,7 +31,7 @@ export default function Card() {
                 <div className="flex flex-col items-center rounded-lg">
                 <iframe src="https://www.youtube.com/embed/TLBjEi_bi0U"
                     className="w-full h-96 mx-auto"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                     loading="lazy">
@@ -40,7 +40,7 @@ export default function Card() {
                 <div className="flex flex-col items-center rounded-lg">
                 <iframe src="https://www.youtube.com/embed/TLBjEi_bi0U"
                     className="w-full h-96 mx-auto"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                     loading="lazy">

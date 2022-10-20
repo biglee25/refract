@@ -36,7 +36,7 @@ export default function Home({ data }) {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
 
-          {data.items.map(({ id, snippet = {} }) => {
+          {/* {data.items.map(({ id, snippet = {} }) => {
                 const { title, thumbnails = {}, resourceId = {} } = snippet;
                 const { medium = {} } = thumbnails;
                 return (
@@ -46,7 +46,7 @@ export default function Home({ data }) {
                     <h3 className="text-center pt-8">{ title }</h3>
                 </a>
               </div>
-          )})}
+          )})} */}
         </div>
       </div> */}
       <Footer />  

@@ -37,15 +37,6 @@ export default function Card() {
                     loading="lazy">
                 </iframe>
                 </div>
-                <div className="flex flex-col items-center rounded-lg">
-                <iframe src="https://www.youtube.com/embed/TLBjEi_bi0U"
-                    className="w-full h-96 mx-auto"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullscreen
-                    loading="lazy">
-                </iframe>
-                </div>
             </div>
         </section>
     </div>

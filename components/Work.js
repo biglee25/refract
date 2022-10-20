@@ -15,7 +15,7 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullscreen
+                    allowFullScreen
                     loading="lazy">
                 </iframe>
                 </div>
@@ -24,7 +24,7 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullscreen
+                    allowFullScreen
                     loading="lazy">
                 </iframe>
                 </div>
@@ -33,7 +33,16 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullscreen
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                </div>
+                <div className="flex flex-col items-center rounded-lg">
+                <iframe src="https://www.youtube.com/embed/TLBjEi_bi0U"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
                     loading="lazy">
                 </iframe>
                 </div>

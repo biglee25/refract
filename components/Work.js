@@ -15,7 +15,7 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullscreen
                     loading="lazy">
                 </iframe>
                 </div>
@@ -24,7 +24,7 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullscreen
                     loading="lazy">
                 </iframe>
                 </div>
@@ -33,7 +33,7 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullscreen
                     loading="lazy">
                 </iframe>
                 </div>
@@ -42,7 +42,7 @@ export default function Card() {
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullscreen
                     loading="lazy">
                 </iframe>
                 </div>

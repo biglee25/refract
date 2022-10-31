@@ -23,7 +23,7 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Portfolio | Jack Attwater</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />

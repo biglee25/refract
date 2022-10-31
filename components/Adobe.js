@@ -9,7 +9,7 @@ export default function Adobe() {
   return (
     <div>
         <section className="container mx-auto md:my-48">
-            <div className='grid grid-cols-1 md:grid-cols-2 px-5'>
+            <div className='grid grid-cols-1 md:grid-cols-1'>
                 <div className="flex flex-col justify-center text-center md:text-left font-light">
                     <h1 className='pb-5'>The Industry <span className='text-red-500'>Standard</span></h1>
                     <p>Adobe software is widely known to be the industry standard and the benchmark for all creative work.</p>
@@ -38,7 +38,6 @@ export default function Adobe() {
                             layout="responsive"
                         />
                 </div>
-
             </div>
         </section>
     </div>

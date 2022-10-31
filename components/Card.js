@@ -9,7 +9,7 @@ export default function Card() {
   return (
     <div>
         <section className="m-4 md:mx-12 md:my-48">
-            <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                 <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                     <Image src={AfterEffects} alt="After Effects" width={100} height={100}/>
                     <h2 className='py-5 font-bold text-2xl'>After Effects</h2>

@@ -1,7 +1,7 @@
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: false, // or 'media' or 'class'
+  Media: false, // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: theme => ({

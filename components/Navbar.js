@@ -23,7 +23,7 @@ export default function Navbar() {
                             <Image
                             src={logo}
                             alt="Refract VFX"
-                            width={125}
+                            width={100}
                             height={80}
                             layout="fixed"
                             />

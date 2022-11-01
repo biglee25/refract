@@ -18,6 +18,14 @@ h2 {
     @apply w-full md:w-1/2 text-white mt-12 p-5 text-center cursor-pointer
 }
 
+.spacer {
+    @apply m-auto my-24 md:my-48
+}
+
+
+//CUSTOM CSS
+
+
 
 .background-left {
   position: relative;

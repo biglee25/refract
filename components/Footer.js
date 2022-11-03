@@ -13,17 +13,17 @@ export default function Footer() {
         <div className="py-28 flex flex-col items-center">
           <div className="py-4">
           <a href="tel:07478 876632" className="text-white">
-            <FaPhoneSquare size="2rem" className="mx-auto mb-4 text-red-500" />
+            <FaPhoneSquare size="4rem" className="mx-auto mb-4 text-blue-300" />
             07478 876632</a> 
           </div>
           <div className="py-4">
           <a href="mailto:jackattwater21@gmail.com" className="text-white">
-            <MdEmail size="2rem" className="mx-auto mb-4 text-red-500" />
+            <MdEmail size="4rem" className="mx-auto mb-4 text-blue-300" />
             jackattwater21@gmail.com</a>
           </div>
           <div className="py-4">
           <a href="https://www.facebook.com/refract" target="_blank" rel="noreferrer" className="text-white">
-            <FaFacebookSquare size="2rem" className="mx-auto mb-4 text-red-500" />
+            <FaFacebookSquare size="4rem" className="mx-auto mb-4 text-blue-300" />
             Refract</a>
           </div>
           <div className="py-6">

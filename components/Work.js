@@ -1,8 +1,3 @@
-import Image from 'next/image'
-import Premier from '../public/images/Premiere_Pro_icon.svg'
-import AfterEffects from '../public/images/After_Effects_icon.svg'
-import Photoshop from '../public/images/Photoshop_icon.svg'
-import Illustrator from '../public/images/Illustrator_icon.svg'
 
 
 export default function Card() {

@@ -15,11 +15,11 @@ h2 {
 }
 
 .button {
-    @apply w-full md:w-1/2 text-white mt-12 p-5 text-center cursor-pointer
+    @apply w-full md:w-1/2 mx-auto bg-black text-white my-12 p-5 text-center cursor-pointer
 }
 
 .spacer {
-    @apply m-auto my-24 md:my-48
+    @apply m-auto my-24 md:my-48 px-6
 }
 
 

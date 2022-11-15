@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero-bg': "url('/images/profile.png')",
+        'jack-bg': "url('/images/jack.jpg')",
        }),
        colors: {
         white: '#fff',

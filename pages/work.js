@@ -1,45 +1,51 @@
-import Head from 'next/head'
 
-const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
-export async function getServerSideProps() {
-  const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=50&playlistId=PLdQPJkxOG01pHhCG2NlazMqCSiW_95ytj&key=${process.env.YOUTUBE_API_KEY}`)
-  const data = await res.json();
-  return {
-    props: {
-      data
-    }
-  }
-}
-
-export default function Home({ data }) {
-
+export default function Card() {
   return (
     <>
-      <Head>
-        <title>Work</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="container mx-auto">
-        <h1 className="text-center text-6xl font-bold py-12 text-white">
-          Work
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
-
-          {data.items.map(({ id, snippet = {} }) => {
-                const { title, thumbnails = {}, resourceId = {} } = snippet;
-                const { medium = {} } = thumbnails;
-                return (
-              <div key={id} className="m-4 p-4 shadow-md h-full rounded-lg bg-gray-900 text-white z-30">
-                <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`} target="_blank" rel="noreferrer">
-                    <img width={medium.width} height={medium.height} src={medium.url} alt="Youtube Image" className="w-full rounded-lg" />
-                    <h3 className="text-center pt-8">{ title }</h3>
-                </a>
-              </div>
-          )})}
-
-        </div>
-      </div>
+        <section className="spacer container">
+        <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>My Work</h2>
+            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Please get in touch to discuss anything.</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className="flex flex-col items-center rounded-lg">
+                <iframe src="https://www.youtube.com/embed/0ea0rilWKnA"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                </div>
+                <div className="flex flex-col items-center rounded-lg">
+                <iframe src="https://www.youtube.com/embed/_dnMeWuMbDQ"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                </div>
+                <div className="flex flex-col items-center rounded-lg">
+                <iframe src="https://www.youtube.com/embed/-9USS-YxQHI"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                </div>
+                <div className="flex flex-col items-center rounded-lg">
+                <iframe src="https://www.youtube.com/embed/gxNW92OQ0Dw"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                </div>
+            </div>
+        </section>
     </>
   )
 }
+

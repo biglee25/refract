@@ -27,7 +27,7 @@ export default function Navbar() {
                             height={80}
                             layout="fixed"
                             />
-                          <h2 className="text-2xl font-black text-blue-300">JACK <span className='text-white'>ATTWATER</span></h2>
+                          <h2 className="text-2xl font-black text-white">REFRACT<span className='text-blue-300'>VFX</span></h2>
                         </a>
                     </Link>
                 </div>

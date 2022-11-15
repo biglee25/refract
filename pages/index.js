@@ -30,7 +30,6 @@ export default function Home({ data }) {
       <About />
       <Card />
       <Work />
-      <Footer />  
     </>
   )
 }

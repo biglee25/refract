@@ -22,7 +22,7 @@ export default function Card() {
       <div className="m-4 logo-bg text-black">
               <div className="my-12 px-5 grid grid-cols-1 md:grid-cols-2 gap-12">
                   <div>
-                    <p>I'm Refract also known as Jack Attwater, I am a level 3 media student at clarendon sixth form college. I am also a freelance video editor for the organisation Acend.</p>
+                    <p>I&apos;m Jack Attwater, I am a level 3 media student at clarendon sixth form college. I am also a freelance video editor for the organisation Acend.</p>
                     <br/> 
                     <p>My passion for editing started 2 years ago when I was studying Media at school. It then came to me that I would like to do video editing as I had seen what other people had done and was intrigued to learn more.</p>
                     <br/>

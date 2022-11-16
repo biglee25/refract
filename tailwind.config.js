@@ -7,6 +7,7 @@ module.exports = {
       backgroundImage: theme => ({
         'hero-bg': "url('/images/profile.png')",
         'jack-bg': "url('/images/jack.jpg')",
+        'adidas-bg': "url('/images/adidas.jpg')",
        }),
        colors: {
         white: '#fff',

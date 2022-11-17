@@ -1,13 +1,13 @@
 import Link from'next/link'
 
-export default function Adidas() {
+export default function Stay() {
   return (
     <>
         <section className="spacer container">
-        <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Adidas Motion Graphic</h2>
+        <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Stay</h2>
             <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <div className="flex flex-col items-center justify-center">
-                <iframe src="https://www.youtube.com/embed/0ea0rilWKnA?modestbranding=1&rel=0"
+                <iframe src="https://www.youtube.com/embed/gxNW92OQ0Dw?modestbranding=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     controls="0"

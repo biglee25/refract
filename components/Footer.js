@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { FaPhoneSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { FaFacebookSquare } from 'react-icons/fa';
+import { FaBehance } from 'react-icons/fa';
 
 import logo from "../public/images/logo.svg"
 
@@ -12,12 +13,12 @@ export default function Footer() {
     <footer className="bg-black">
         <div className="py-28 flex flex-col md:flex-row items-center justify-center">
           <div className="py-4 px-12">
-          <a href="tel:07478 876632" className="text-white">
+          <a href="tel:07478 876632" target="_blank" rel="noreferrer"  className="text-white">
             <FaPhoneSquare size="4rem" className="mx-auto mb-4 text-blue-300" />
             07478 876632</a> 
           </div>
           <div className="py-4 px-12">
-          <a href="mailto:jackattwater21@gmail.com" className="text-white">
+          <a href="mailto:jackattwater21@gmail.com" target="_blank" rel="noreferrer" className="text-white">
             <MdEmail size="4rem" className="mx-auto mb-4 text-blue-300" />
             jackattwater21@gmail.com</a>
           </div>
@@ -25,6 +26,11 @@ export default function Footer() {
           <a href="https://www.facebook.com/refract" target="_blank" rel="noreferrer" className="text-white">
             <FaFacebookSquare size="4rem" className="mx-auto mb-4 text-blue-300" />
             Refract</a>
+          </div>
+          <div className="py-4 px-12">
+          <a href="https://www.facebook.com/refract" target="_blank" rel="noreferrer" className="text-white">
+            <FaBehance size="4rem" className="mx-auto mb-4 text-blue-300" />
+            jackattwater</a>
           </div>
         </div>
         <div className="py-6 text-center">

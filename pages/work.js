@@ -26,7 +26,7 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center rounded-lg cursor-pointer">
-                    <Link href="/fight=for-promotion">
+                    <Link href="/fight-for-promotion">
                         <div className="bg-ffp-bg bg-no-repeat bg-cover bg-center opacity-100 hover:opacity-80 text-black w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2>Fight For Promotion</h2>

@@ -9,7 +9,7 @@ export default function Work() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/adidas">
-                        <div className="bg-stay-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                        <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2>Adidas Motion Graphic</h2>
                             </a>

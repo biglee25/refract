@@ -34,6 +34,7 @@ export default function Work() {
                         </div>
                     </Link>
                 </div>
+                <div className="flex flex-col items-center rounded-lg cursor-pointer">
                 <Link href="/stay">
                         <div className="bg-stay-bg bg-no-repeat bg-cover bg-center opacity-100 hover:opacity-80 text-black w-full h-96 flex items-start justify-start p-5">
                             <a>
@@ -41,6 +42,7 @@ export default function Work() {
                             </a>
                         </div>
                 </Link>
+            </div>
             </div>
         </section>
     </>

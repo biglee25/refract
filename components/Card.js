@@ -15,26 +15,43 @@ export default function Card() {
                 <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                     <Image src={AfterEffects} alt="After Effects" width={100} height={100}/>
                     <h2 className='py-5 font-bold text-2xl'>After Effects</h2>
-                    <p>Adobe software is widely known to be the industry standard and the benchmark for all creative work.</p>
-                    <p>I use the latest Adobe software to create mind blowing visualisations that capture the imagination. Using these tools your ideas become limitless.</p>
+                    <p>Adobe After Effects is the industry standard for motion graphics and visual effects
+                        allowing users to create sophisticated and visually compelling video.</p>
+                        <br/>
+                        <p>After
+                        Effects allows you to create cinematic movie titles, intros and transitions. After effects
+                        plays a big part in the work I create as I use lots of visual effects and time remapping in
+                        my edits.</p>
                 </div>
                 <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                     <Image src={Premier} alt="After Effects" width={100} height={100}/>
                     <h2 className='py-5 font-bold text-2xl'>Premier Pro</h2>
-                    <p>Adobe software is widely known to be the industry standard and the benchmark for all creative work.</p>
-                    <p>I use the latest Adobe software to create mind blowing visualisations that capture the imagination. Using these tools your ideas become limitless.</p>
+                    <p>Adobe Premiere Pro is used for editing videos, commercials and other film, television,
+                        and online video. It also includes audio editing functionality.</p>
+                        <br/>
+                        <p>Premier Pro is an important
+                        piece of software that I use to create my edits. I use it for many things such as cutting
+                        and colour correction. Premier pro also plays a big part in editing audio in my edits.</p>
                 </div>
                 <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                     <Image src={Photoshop} alt="After Effects" width={100} height={100}/>
                     <h2 className='py-5 font-bold text-2xl'>Photoshop</h2>
-                    <p>Adobe software is widely known to be the industry standard and the benchmark for all creative work.</p>
-                    <p>I use the latest Adobe software to create mind blowing visualisations that capture the imagination. Using these tools your ideas become limitless.</p>
+                    <p>Adobe Photoshop is an image creation, graphic design and photo editing software
+                        developed by Adobe. The software provides many image editing features for pixel-
+                        based images, raster graphics and vector graphics.</p>
+                        <br/>
+                        <p>I have used photoshop previously to
+                        create thumbnails for my edits and cover art for college projects.</p>
                 </div>
                 <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                     <Image src={Illustrator} alt="After Effects" width={100} height={100}/>
                     <h2 className='py-5 font-bold text-2xl'>Illustrator</h2>
-                    <p>Adobe software is widely known to be the industry standard and the benchmark for all creative work.</p>
-                    <p>I use the latest Adobe software to create mind blowing visualisations that capture the imagination. Using these tools your ideas become limitless.</p>
+                    <p>Adobe Illustrator is a graphic design application. I use Illustrator to create vector
+                        graphics.</p>
+                        <br/>
+                        <p>Vector images and graphics are made of points, lines, shapes, and curves
+                        based on mathematical formulas rather than a set amount of pixels, and therefore can
+                        be scaled up or down while maintaining image quality.</p>
                 </div>
             </div>
         </section>

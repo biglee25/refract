@@ -4,8 +4,8 @@ export default function About() {
     <div>
       <section className="spacer container">
       <div className="m-4 logo-bg text-black">
-            <h2 className='px-5 text-blue-300 text-5xl md:text-8xl'>A little about me....</h2>
-              <div className="my-12 px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <h2 className='md:px-5 text-blue-300 text-5xl md:text-8xl'>A little about me....</h2>
+              <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
                   <div>
                       <p>My own personal venture into the world of post production has improved my skills and understanding of what it takes to produce an eye catching piece of work. I have been using applications like Adobe Premiere Pro and Adobe After Effects for over 2 years and have found them to have been crucial in my development in post production. Developing my skills through such outlets has helped me to grow a sense of perfectionism for the work I have created.</p>
                   </div>

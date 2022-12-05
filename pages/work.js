@@ -9,14 +9,14 @@ export default function Work() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/adidas">
-                        <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                        <div className="bg-ffp-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2>Adidas Motion Graphic</h2>
                             </a>
                         </div>
                     </Link>
                 </div>
-                <div className="flex flex-col items-center rounded-lg cursor-pointer">
+                <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/nike">
                         <div className="bg-nike-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
@@ -25,7 +25,7 @@ export default function Work() {
                         </div>
                     </Link>
                 </div>
-                <div className="flex flex-col items-center rounded-lg cursor-pointer">
+                <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/fight-for-promotion">
                         <div className="bg-ffp-bg bg-no-repeat bg-cover bg-center text-black w-full h-96 flex items-start justify-start p-5">
                             <a>
@@ -34,7 +34,7 @@ export default function Work() {
                         </div>
                     </Link>
                 </div>
-                <div className="flex flex-col items-center rounded-lg cursor-pointer">
+                <div className="flex flex-col items-center cursor-pointer">
                 <Link href="/stay">
                         <div className="bg-stay-bg bg-no-repeat bg-cover bg-center text-black w-full h-96 flex items-start justify-start p-5">
                             <a>

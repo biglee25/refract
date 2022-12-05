@@ -63,22 +63,22 @@ export default function Navbar() {
                         <ul className="text-center font-bold text-4xl leading-loose">
                             <li className="px-4">
                                 <Link href="/">
-                                    <a className="hover:text-orange-400" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Home</a>
+                                    <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Home</a>
                                 </Link>
                             </li>
                             <li className="px-4">
                                 <Link href="/about">
-                                    <a className="hover:text-orange-400" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>About</a>
+                                    <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>About</a>
                                 </Link>
                             </li>
                             <li className="px-4">
                                 <Link href="/work">
-                                        <a className=" hover:text-orange-400" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Work</a>
+                                        <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Work</a>
                                 </Link>
                             </li>
                             <li className="px-4">
                                 <Link href="/contact">
-                                        <a className="hover:text-orange-400" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Contact</a>
+                                        <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Contact</a>
                                 </Link>
                             </li>
                         </ul>

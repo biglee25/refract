@@ -7,7 +7,7 @@ module.exports = {
       backgroundImage: theme => ({
         'hero-bg': "url('/images/jack-profile.png')",
         'jack-bg': "url('/images/jack-about.png')",
-        'adidas-bg': "url('/images/adidas.jpg')",
+        'adidas-bg': "url('/images/adidas.png')",
         'nike-bg': "url('/images/nike.jpg')",
         'ffp-bg': "url('/images/ffp.jpg')",
         'stay-bg': "url('/images/stay.jpg')",

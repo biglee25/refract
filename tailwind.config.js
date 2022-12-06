@@ -11,6 +11,9 @@ module.exports = {
         'nike-bg': "url('/images/nike.png')",
         'ffp-bg': "url('/images/ffp.png')",
         'stay-bg': "url('/images/stay.png')",
+        'sissi-bg': "url('/images/sissi.png')",
+        'edgar-bg': "url('/images/edgar.png')",
+        'staycod-bg': "url('/images/staycod.png')",
        }),
        colors: {
         white: '#fff',

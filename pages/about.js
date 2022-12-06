@@ -9,7 +9,8 @@ export default function Home() {
         <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-12 bg-gray-900 bg-jack-bg bg-cover md:bg-contain bg-no-repeat bg-center md:bg-top-right md:bg-right h-screen'>
 						<div className='flex flex-col items-center justify-center p-4 md:p-12'>
 							<div className='text-left mx-auto'>
-								<h2 className='text-white text-5xl md:text-8xl'>ABOUT ME</h2>
+								<h2 className='text-blue-300 text-5xl md:text-8xl'>ABOUT ME</h2>
+                <p className='text-white'>I&apos;m Jack Attwater, I am a level 3 media student at Clarendon Sixth Form College. I am also a freelance video editor.</p>
 							</div>
 						</div>
         </section>
@@ -18,25 +19,56 @@ export default function Home() {
             <h2 className='text-blue-300 text-5xl md:text-8xl'>My story so far....</h2>
               <div className="my-12 grid grid-cols-1 md:grid-cols-2 gap-12">
                   <div>
-                    <p>I&apos;m Jack Attwater, I am a level 3 media student at clarendon sixth form college. I am also a freelance video editor for the organisation Acend.</p>
-                    <br/> 
-                    <p>My passion for editing started 2 years ago when I was studying Media at school. It then came to me that I would like to do video editing as I had seen what other people had done and was intrigued to learn more.</p>
+                    <p>I think the most interesting thing about post production for me is the freedom of creativity. The
+                        way post production can transform video is fascinating. The ability to manipulate video into
+                        anything you want has captivated me. My own personal venture into the world of post
+                        production has improved my skills and understanding of what it takes to produce an eye
+                        catching piece of work. I have been using software like Adobe Premiere Pro and Adobe After
+                        Effects for over 2 years and have found them to have been crucial in my development in post
+                        production. Developing my skills through such outlets has helped me to grow a sense of
+                        perfectionism for the work I have created.Working as a freelance video editor in my spare time
+                        shows I am committed and passionate for the post production industry and am always willing to
+                        know how I can better my work,through this I have been able to fully understand the subject in
+                        depth and have learnt valuable skills that will be required of me in this industry.</p>
                     <br/>
-                    <p>Video editing was always something that I had done in my spare time so I had an idea that it was my real passion.
-                        My best skills are editing and post production. I feel it is my strong point as my technical skills are very advanced due to the extracurricular work I do outside of college time. There are still lots of things I can work on but I feel this is my strongest skill. When it comes to pre-production I feel organisation is my strongest skill as I like to keep everything in a place where I can access it easily.</p>
-                    <br/>
-                    <p>Alongside my college work I am a freelance video editor which I have been doing for about 10 months. Recently i have been working for the organisation Acend , this is one of the biggest esports companies in the industry at the moment and the continue to support me and my ambitions and give me as much opportunities as they can so that i can be a as successful as possible. My aspirations as a video editor/media practitioner is to work for a big tv production company such as sky sports or become a full time freelance video editor who is well known within the industry.</p>
+                    <p>During my time at college I have learnt a lot studying media. I have learnt a range of camera
+                        techniques that have been helpful with succeeding in assessed work. College has also helped
+                        me progress with my post production skills, receiving feedback from teachers and peers has
+                        helped me to identify what areas I need to improve on and has been crucial for my progression.
+                        Throughout my time at college my progression has been prominent and I have been able to act
+                        on mistakes I have made in past projects. I feel taking Media at college will be of great benefit to
+                        my studies at university as it has given me the foundation to better my work further and become
+                        successful in the post production industry.</p>
+                        <br/>
+                        <p>Throughout the past 2 years of video editing I have worked with a number of different clients who have always been impressed with the work I have done for them. Some clients I have worked with have been kind enough to give me working references for future opportunities that may come my way.</p>
                   </div>
                   <div>
-                    <p>In terms of my work ethic I would say I am always motivated to do as much as possible with the best quality I can possibly give, as a freelance video editor quality is the key factor I take into consideration when I finish an edit.</p>
+                    <p>The Industry of Digital media and post production has a wide range of job opportunities available. Through my Freelance journey it has made me realise what I could shape my career to be.</p>
                     <br/>
-                    <p>With my good work ethic I am able to always plan my deadlines for customers and college projects so I never miss the required deadline.
-                        I am always motivated to do my best in what I do and try to add my own spin on my edits which leads to unique ideas and satisfied customers.
+                    <p>Working with a popular gaming organisation Acend opened my eyes to
+                        this. The Head of the creative team at Acend, Daan Driessen, said that I have “ A Great work
+                        ethic and Professionalism” During my time at there, my job required me to be knowledgeable
+                        about current trends as well as having a good understanding of various editing tools such as
+                        Adobe Premier Pro and Adobe After Effects. Both Daan and I feel I fulfilled these requirements
+                        perfectly and was able to use these skills to produce work of the required standard. During my
+                        time working for them, I was able to gain other skills such as communication and
+                        professionalism, this was required of me during team meetings with other members of staff. I
+                        feel this profession as a whole moulds well with my future goals in post production.</p>
+                        <br/>
+                  <div>
+                    <p>My part time work as a Digital technician requires the ability to deal with a variety of different
+                        scenarios at one time. Other skills required of me are to work well as a part of a team, be
+                        confident in suggesting new ideas on how to better the company and workflow and to have a
+                        good knowledge of technical equipment such as machines and computers. These skills are
+                        something that can be translated over to my college work as working with a client and
+                        understanding their needs is something that is required in the post production Industry.</p>
+                    <br/>
+                    <p>Overall, I believe the skills I have learnt through my freelance work, college and part time work
+                        will help me prosper while at university. I believe that studying post production will give me great
+                        opportunities to thrive at any career in the digital media industry or other related areas that I
+                        may decide to pursue.
                     </p>
-                    <br/>
-                    <p>Working as a freelance video editor in my spare time shows I am committed and passionate for the post production industry and am always willing to know how I can better my work. I have used my criticism of post production to look at it as more of an art than a form of entertainment. Freelance video editing helps me gain lots of professionalism and I always enjoy doing it as I would say it is one of my hobbies.</p>
-                    <br/>
-                    <p> During the past 2 years of video editing I have worked with a number of different clients who have always been impressed with the work I have done for them. Some clients I have worked with have been kind enough to give me working references for future opportunities that may come my way.</p>
+                  </div>
                   </div>
               </div>
         </div>

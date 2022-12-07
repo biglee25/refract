@@ -11,7 +11,7 @@ export default function Card() {
         <section className="spacer bg-gray-900 text-center">
             <h2 className='pt-24 md:mt-12 md:w-3/4 mx-auto text-blue-300 text-5xl md:text-8xl'>My Skills</h2>
             <p className='text-white pt-6 md:w-3/4 mx-auto'>My own personal venture into the world of post production has improved my skills and understanding of what it takes to produce an eye catching piece of work[c] that is unique and appeals to a certain target audience.I have been using applications like Adobe Premiere Pro and Adobe After Effects for over 2 years and have found them to have been crucial in my development in video editing.</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-24 md:px-24 md:py-48'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-24 md:px-24 md:py-48 text-left'>
                 <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                     <Image src={AfterEffects} alt="After Effects" width={100} height={100}/>
                     <h2 className='py-5 font-bold text-2xl'>After Effects</h2>

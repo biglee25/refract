@@ -1,13 +1,19 @@
 import Link from "next/link"
+import { Slide } from "react-reveal"
 
 export default function Work() {
   return (
     <>
         <section className="spacer container text-center">
-        <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>My Work</h2>
-            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Below you will find examples of my work that I have completed at College, along with some client work.</p>
-            <br/>
-            <p className="pb-12">Please click on the images to see the full brief and video.</p>
+            <Slide down>
+                <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>My Work</h2>
+            </Slide>
+            <Slide up>
+                <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Below you will find examples of my work that I have completed at College, along with some client work.</p>
+                <br/>
+                <p className="pb-12">Please click on the images to see the full brief and video.</p>
+            </Slide>
+            <Slide up>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-left'>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/adidas">
@@ -100,6 +106,7 @@ export default function Work() {
                     </Link>
                 </div>
             </div>
+            </Slide>   
         </section>
     </>
   )

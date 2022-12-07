@@ -13,7 +13,7 @@ export default function Work() {
                     <Link href="/adidas">
                         <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
-                                <h2 className="text-white bg-black p-3">Adidas Motion Graphic</h2>
+                                <h2 className="text-2xl text-black bg-blue-300 p-3">Adidas Motion Graphic</h2>
                             </a>
                         </div>
                     </Link>
@@ -22,7 +22,7 @@ export default function Work() {
                     <Link href="/nike">
                         <div className="bg-nike-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
-                                <h2 className="text-white bg-black p-3">Nike Motion Graphic</h2>
+                                <h2 className="text-2xl text-black bg-blue-300 p-3">Nike Motion Graphic</h2>
                             </a>
                         </div>
                     </Link>
@@ -31,7 +31,7 @@ export default function Work() {
                     <Link href="/fight-for-promotion">
                         <div className="bg-ffp-bg bg-no-repeat bg-cover bg-center text-black w-full h-96 flex items-start justify-start p-5">
                             <a>
-                                <h2 className="text-white bg-black p-3">Fight For Promotion</h2>
+                                <h2 className="text-2xl text-black bg-blue-300 p-3">Fight For Promotion</h2>
                             </a>
                         </div>
                     </Link>
@@ -40,7 +40,7 @@ export default function Work() {
                     <Link href="/stay">
                             <div className="bg-stay-bg bg-no-repeat bg-cover bg-center text-black w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">Stay Music Video</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Stay Music Video</h2>
                                 </a>
                             </div>
                     </Link>
@@ -49,7 +49,7 @@ export default function Work() {
                     <Link href="/sissi">
                             <div className="bg-sissi-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">Sissi State Punks CSGO announcement</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Sissi State Punks CSGO announcement</h2>
                                 </a>
                             </div>
                     </Link>
@@ -58,7 +58,7 @@ export default function Work() {
                     <Link href="/edgar">
                             <div className="bg-edgar-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">Bend It like Edgar Montage</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Bend It like Edgar Montage</h2>
                                 </a>
                             </div>
                     </Link>
@@ -67,7 +67,7 @@ export default function Work() {
                     <Link href="/humanitas">
                             <div className="bg-humanitas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">Humanitas Podcast Final Major Project</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Humanitas Podcast Final Major Project</h2>
                                 </a>
                             </div>
                     </Link>
@@ -76,7 +76,7 @@ export default function Work() {
                     <Link href="/staycod">
                             <div className="bg-staycod-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">Stay Call Of Duty Montage</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Stay Call Of Duty Montage</h2>
                                 </a>
                             </div>
                     </Link>
@@ -85,7 +85,7 @@ export default function Work() {
                     <Link href="/valorant">
                             <div className="bg-valorant-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">MP5 Valorant Montage</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">MP5 Valorant Montage</h2>
                                 </a>
                             </div>
                     </Link>
@@ -94,7 +94,7 @@ export default function Work() {
                     <Link href="/acend">
                             <div className="bg-client-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
-                                    <h2 className="text-white bg-black p-3">Client Work</h2>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Client Work</h2>
                                 </a>
                             </div>
                     </Link>

@@ -8,7 +8,7 @@ export default function Work() {
             <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Below you will find examples of my work that I have completed at College, along with some client work.</p>
             <br/>
             <p className="pb-12">Please click on the images to see the full brief and video.</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-left'>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/adidas">
                         <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
@@ -65,7 +65,7 @@ export default function Work() {
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/humanitas">
-                            <div className="bg-edgar-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                            <div className="bg-humanitas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
                                     <h2 className="text-white bg-black p-3">Humanitas Podcast Final Major Project</h2>
                                 </a>
@@ -82,8 +82,17 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/valorant">
+                            <div className="bg-valorant-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-white bg-black p-3">MP5 Valorant Montage</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+                <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/acend">
-                            <div className="bg-staycod-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                            <div className="bg-client-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
                                     <h2 className="text-white bg-black p-3">Client Work</h2>
                                 </a>

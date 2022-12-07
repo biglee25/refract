@@ -13,7 +13,10 @@ module.exports = {
         'stay-bg': "url('/images/stay.png')",
         'sissi-bg': "url('/images/sissi.png')",
         'edgar-bg': "url('/images/edgar.png')",
+        'humanitas-bg': "url('/images/humanitas.png')",
         'staycod-bg': "url('/images/staycod.png')",
+        'valorant-bg': "url('/images/valorant.png')",
+        'client-bg': "url('/images/client.png')",
        }),
        colors: {
         white: '#fff',

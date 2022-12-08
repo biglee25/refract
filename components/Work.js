@@ -42,6 +42,7 @@ export default function Work() {
                     loading="lazy">
                 </iframe>
             </div>
+
             </Slide>
         </section>
     </div>

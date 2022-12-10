@@ -13,13 +13,6 @@ export default function Work() {
             </Slide>
             <Slide up>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center mx-auto'>
-                <iframe src="https://www.youtube.com/embed/0ea0rilWKnA?modestbranding=1&rel=0"
-                    className="w-full h-96 mx-auto"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy">
-                </iframe>
                 <iframe src="https://www.youtube.com/embed/_dnMeWuMbDQ?modestbranding=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
@@ -27,14 +20,21 @@ export default function Work() {
                     allowFullScreen
                     loading="lazy">
                 </iframe>
-                <iframe src="https://www.youtube.com/embed/-9USS-YxQHI?modestbranding=1&rel=0"
+                <iframe src="https://www.youtube.com/embed/y94je44oF3Y?modestbranding=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     loading="lazy">
                 </iframe>
-                <iframe src="https://www.youtube.com/embed/gxNW92OQ0Dw?modestbranding=1&rel=0"
+                <iframe src="https://www.youtube.com/embed/A7BRE_zwUN0?modestbranding=1&rel=0"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                <iframe src="https://www.youtube.com/embed/PX8nJccBJsM?modestbranding=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

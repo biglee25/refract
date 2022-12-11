@@ -15,7 +15,8 @@ export default function Card() {
                 <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Contact Me</h2>
             </Slide>
             <Slide up>
-                <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Please get in touch to discuss anything.</p>
+                <p className='text-black px-5 pt-6 md:w-3/4 mx-auto text-center'>Please get in touch to discuss anything.</p>
+                <p className='text-black px-5 pb-6 md:w-3/4 mx-auto text-center'>Also, if you like my work, please give me a follow on social media.</p>
             </Slide>
             <Slide up>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center'>

@@ -15,9 +15,9 @@ export default function Card() {
                     <h2 className='md:mt-12 md:w-3/4 mx-auto text-blue-300 text-5xl md:text-8xl'>My Skills</h2>
                 </Slide>
                 <Slide up>
-                    <p className='text-white pt-6 md:w-3/4 mx-auto'>My own personal venture into the world of post production has improved my skills and understanding of what it takes to produce an eye catching piece of work that is unique and appeals to a certain target audience.</p>
+                    <p className='text-white pt-6 md:w-3/4 mx-auto'>During my time at college and as a freelancer, I have gained valuable experience in various software applications.</p>
                     <br/>
-                    <p className='text-white md:w-3/4 mx-auto'>I have been using applications like Adobe Premiere Pro and Adobe After Effects for over 2 years and have found them to have been crucial in my development in video editing.</p>
+                    <p className='text-white md:w-3/4 mx-auto'>I have gained the majority of my experience through the Adobe software and I am able to use them to a high level.</p>
                 </Slide>
                 <Slide up>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-24 md:px-24 md:py-24 text-left'>

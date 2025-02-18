@@ -1,4 +1,4 @@
-import { Slide } from "react-reveal";
+
 
 export default function About() {
   return (
@@ -9,7 +9,7 @@ export default function About() {
             <h2 className='md:px-5 text-blue-300 text-5xl md:text-8xl'>A little about me....</h2>
           </Slide>
           <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
-            <Slide up>
+            
             <div>
                   <p>My own personal venture into the world of post production has improved my skills and understanding of what it takes to produce an eye catching piece of work. I have been using applications like Adobe Premiere Pro and Adobe After Effects for over 2 years and have found them to have been crucial in my development in post production. Developing my skills through such outlets has helped me to grow a sense of perfectionism for the work I have created.</p>
               </div>
@@ -19,7 +19,7 @@ export default function About() {
               <div>
                   <p> During the past 2 years of video editing I have worked with a number of different clients who have always been impressed with the work I have done for them. Some clients I have worked with have been kind enough to give me working references for future opportunities that may come my way.</p>
               </div>
-            </Slide>
+            
           </div>
         </div>
       </section>

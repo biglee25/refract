@@ -3,7 +3,6 @@ import Premier from '../public/images/Premiere_Pro_icon.svg'
 import AfterEffects from '../public/images/After_Effects_icon.svg'
 import Photoshop from '../public/images/Photoshop_icon.svg'
 import Illustrator from '../public/images/Illustrator_icon.svg'
-import { Slide } from 'react-reveal'
 
 
 export default function Card() {
@@ -11,15 +10,15 @@ export default function Card() {
     <div>
         <section className="bg-gray-900 text-center">
             <div className='spacer container py-24'>
-                <Slide down>
+                
                     <h2 className='md:mt-12 md:w-3/4 mx-auto text-blue-300 text-5xl md:text-8xl'>My Skills</h2>
-                </Slide>
-                <Slide up>
+                
+                
                     <p className='text-white pt-6 md:w-3/4 mx-auto'>During my time at college and as a freelancer, I have gained valuable experience in various software applications.</p>
                     <br/>
                     <p className='text-white md:w-3/4 mx-auto'>I have gained the majority of my experience through the Adobe software and I am able to use them to a high level.</p>
-                </Slide>
-                <Slide up>
+                
+                
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-24 md:px-24 md:py-24 text-left'>
                         <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                             <Image src={AfterEffects} alt="After Effects" width={100} height={100}/>
@@ -63,7 +62,7 @@ export default function Card() {
                                 be scaled up or down while maintaining image quality.</p>
                         </div>
                     </div>
-                </Slide>
+                
             </div>
         </section>
     </div>

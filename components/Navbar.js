@@ -27,7 +27,7 @@ export default function Navbar() {
                             height={80}
                             layout="fixed"
                             />
-                          <h2 className="text-2xl font-black text-white">Jack<span className='text-blue-300'>Attwater</span></h2>
+                          <h2 className="text-2xl font-black text-white">Jack <span className='text-blue-300'>Attwater</span></h2>
                         </a>
                     </Link>
                 </div>

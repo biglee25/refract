@@ -1,4 +1,3 @@
-import { Slide } from "react-reveal";
 
 export default function Home() {
   return (

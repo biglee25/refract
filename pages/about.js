@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import { Slide } from 'react-reveal'
+
 
 
 export default function Home() {
@@ -10,23 +10,21 @@ export default function Home() {
         <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-12 bg-gray-900 bg-jack-bg bg-cover md:bg-contain bg-no-repeat bg-center md:bg-top-right md:bg-right h-screen'>
 						<div className='flex flex-col items-center justify-center p-4 md:p-12'>
 							<div className='text-left mx-auto'>
-                <Slide down>
+                
                   <h2 className='text-blue-300 text-5xl md:text-8xl'>ABOUT ME</h2>
-                  </Slide>
-                  <Slide up>
+                 
                   <p className='text-white pt-6'>I&apos;m Jack Attwater, I am a level 3 media student at Clarendon Sixth Form College.</p>
                   <br/>
                   <p className='text-white'>I am also a freelance video editor.</p>
-                  </Slide>
+                 
 							</div>
 						</div>
         </section>
         <section className="spacer container">
       <div className="m-4 text-black">
-        <Slide down>
+       
           <h2 className='text-blue-300 text-5xl md:text-8xl'>My story so far....</h2>
-        </Slide>
-        <Slide up>
+        
         <div className="my-12 grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <p>I think the most interesting thing about post production for me is the freedom of creativity. The
@@ -81,7 +79,7 @@ export default function Home() {
           </div>
           </div>
       </div>
-        </Slide>
+        
         </div>
       </section>
       <Link href="/work">

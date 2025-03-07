@@ -1,14 +1,13 @@
 import Link from'next/link'
-import { Slide } from 'react-reveal'
+
 
 export default function Stay() {
   return (
     <>
         <section className="spacer container">
-          <Slide down>
+          
             <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Humanitas Podcast: Final Major Project</h2> 
-          </Slide>
-          <Slide up>
+      
           <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Humanitas Podcast talks about humanity as a whole taking the good things and bad
               things about us as humans and seeing how we can better ourselves</p>
               <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>With this project I
@@ -19,8 +18,7 @@ export default function Stay() {
                   able to create a smooth workflow for myself and create a successful multi camera
                   project.
               </p>     
-          </Slide>
-          <Slide up>
+         
           <div className="flex flex-col items-center justify-center">
               <iframe src="https://www.youtube.com/embed/01k1PO54SDQ?modestbranding=1&rel=0"
                   className="w-full h-96 mx-auto"
@@ -31,7 +29,7 @@ export default function Stay() {
                   loading="lazy">
               </iframe>
             </div>
-          </Slide>
+    
         </section>
       <Link href="/work">
         <a>

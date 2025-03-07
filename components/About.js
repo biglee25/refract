@@ -5,9 +5,7 @@ export default function About() {
     <div>
       <section className="spacer container">
         <div className="m-4 logo-bg text-black">
-          <Slide top>
             <h2 className='md:px-5 text-blue-300 text-5xl md:text-8xl'>A little about me....</h2>
-          </Slide>
           <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
             
             <div>

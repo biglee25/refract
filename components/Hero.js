@@ -9,7 +9,7 @@ export default function Home() {
 						<h2 className='text-white font-extralight text-6xl md:text-9xl mb-12'>PORTFOLIO</h2>
 					
 				
-						<h2 className='text-white text-5xl md:text-8xl'>JACK ATTWATER</h2>
+						<h2 className='text-white text-5xl md:text-8xl'>JACK ATTWATER.</h2>
 				
 					
 						<h1 className='text-black font-extralight bg-blue-300 p-8 mt-12 w-max'>VIDEO EDITOR</h1>

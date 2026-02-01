@@ -41,12 +41,12 @@ export default function Card() {
                 <div className="flex flex-col items-center font-light bg-gray-900 text-white p-12 rounded-lg">
                 <FaInstagram size="6rem" className="mx-auto mb-4 text-blue-300" />
                     <h2 className='py-5 font-bold text-2xl'>Instagram</h2>
-                    <a href='https://www.instagram.com/jack.a2421' className='text-2xl'>jack.a2421</a>
+                    <a href='https://www.instagram.com/jack_vfx21/' className='text-2xl'>jack_vfx21</a>
                 </div>
                 <div className="flex flex-col items-center font-light bg-gray-900 text-white p-12 rounded-lg">
                 <FaTiktok size="6rem" className="mx-auto mb-4 text-blue-300" />
                     <h2 className='py-5 font-bold text-2xl'>TikTok</h2>
-                    <a href='https://www.tiktok.com/@refractvfx' className='text-2xl'>REFRACTVFX</a>
+                    <a href='https://www.tiktok.com/@refractvfx' className='text-2xl'>refractvfx</a>
                 </div>
             </div>
            

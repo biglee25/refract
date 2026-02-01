@@ -6,27 +6,17 @@ export default function About() {
       <section className="spacer container">
         <div className="m-4 logo-bg text-black">
             <h2 className='md:px-5 text-blue-300 text-5xl md:text-8xl'>A little about me....</h2>
-          <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
-            
-            <div>
-                  <p>My own personal venture into the world of post production has improved my skills and understanding
-              of what it takes to produce an eye catching piece of work. I have been using applications like Adobe
-              Premiere Pro and Adobe After Effects for over 5 years and other applications like DavVnci Resolve and
-              Logic Pro to improve the end product of my work.
-              </p>
-              <p>
-              I have found them to have been crucial in my development
-              in post production. Developing my skills through such outlets has helped me to grow a sense of perfectionism
-              for the work I have created.</p>
+              <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                  <p>I’m a social media video editor and social media manager specialising in short-form, high-impact content for platforms like TikTok, Instagram Reels and YouTube Shorts. I focus on turning raw footage into scroll-stopping videos that hold attention and drive engagement.</p>
+                </div>
+                <div>
+                  <p>With over three years’ experience in social media management and content creation, I understand what actually performs online — from hook writing and pacing, to captions, trends and analytics.</p>
+                </div>
+                <div>
+                  <p>I don’t just edit clips; I shape content to fit the platform, the brand and the audience. If you’re looking for someone who understands both editing and social media strategy, I’d love to work with you.</p>
+                </div>
               </div>
-              <div>
-                  <p>Working as a freelance video editor in my spare time shows I am committed and passionate for the post production industry and am always willing to know how I can better my work. I have used my criticism of post production to look at it as more of an art than a form of entertainment. Freelance video editing helps me gain lots of professionalism and I always enjoy doing it as I would say it is one of my hobbies.</p>
-              </div>
-              <div>
-                  <p> During the past 2 years of video editing I have worked with a number of different clients who have always been impressed with the work I have done for them. Some clients I have worked with have been kind enough to give me working references for future opportunities that may come my way.</p>
-              </div>
-            
-          </div>
         </div>
       </section>
 {/*               <section className="spacer container">

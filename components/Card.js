@@ -16,10 +16,7 @@ export default function Card() {
                     <h2 className='md:mt-12 md:w-3/4 mx-auto text-blue-300 text-5xl md:text-8xl'>My Skills</h2>
                 
                 
-                    <p className='text-white pt-6 md:w-3/4 mx-auto'>During my time as a freelancer, I have gained valuable experience in various software applications.
-                                                                    I have gained the majority of my experience through the Adobe software and I am able to use them
-                                                                    to a high level. Alongside these I’m experienced in other applications like Davinci Resolve and
-                                                                    Logic Pro.</p>
+                    <p className='text-white pt-6 md:w-3/4 mx-auto'> I work primarily within the Adobe Creative Suite, with advanced knowledge of After Effects, Premiere Pro, Illustrator and Photoshop, alongside strong experience in DaVinci Resolve for colour grading and finishing.</p>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 py-24 md:px-24 md:py-24 text-left'>
                         <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                             <Image src={AfterEffects} alt="Adobe After Effects" width={100} height={100}/>
@@ -65,7 +62,7 @@ export default function Card() {
                         <div className="flex flex-col items-start font-light bg-gray-100 p-12 rounded-lg">
                             <Image src={DaVinci} alt="Davinci Resolve" width={100} height={100}/>
                             <h2 className='py-5 font-bold text-2xl'>DaVinci Resolve</h2>
-                            <p>DaVinci Resolve is a proprietary color grading, color correction, visual effects, and
+                            <p>DaVinci Resolve is a proprietary colour grading, colour correction, visual effects, and
                                 audio post-production video editing application for macOS, Windows, and Linux, developed
                                 by Australian company Blackmagic Design.
                                 </p>

@@ -37,11 +37,11 @@ export default function Navbar() {
                             <a className="text-white hover:text-red-400">Home</a>
                         </Link>
                     </li>
-                    <li className="px-4">
+                    {/* <li className="px-4">
                         <Link href="/about">
                             <a className="text-white hover:text-red-400">About</a>
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="px-4">
                         <Link href="/work">
                                 <a className="text-white hover:text-red-400">Work</a>

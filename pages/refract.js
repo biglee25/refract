@@ -8,14 +8,7 @@ export default function Refract() {
           
             <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Refract VFX Animation:</h2>
          
-            {/* <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>The Nike logo is one of the most recognizable and iconic logos in the world. The simple
-                  yet powerful design has been a part of Nike&#39;s identity since 1971, and it has been used
-                  in countless advertising campaigns and product designs over the years.</p>
-                  <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>The Nike logo
-                  animation is a short video that brings the iconic logo to life, showcasing its energy and
-                  dynamism.</p>
-            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>The animation is a great way to bring new life to the familiar logo, and it can
-                  be used in a variety of contexts to create an impactful visual experience.</p> */}
+            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>I designed the Refract logo around the idea of breaking through and seeing things differently. The lightning bolt represents energy, creativity, and impact, while the circle keeps it clean and focused. The black and white style keeps it bold, modern, and timeless — exactly how I want the brand to feel.</p>
           
           <div className="flex flex-col items-center justify-center">
             <iframe src="https://www.youtube.com/embed/D-zVOQBVKBw?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"

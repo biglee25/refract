@@ -19,7 +19,6 @@ module.exports = {
         'valorant-bg': "url('/images/valorant.png')",
         'client-bg': "url('/images/client.png')",
         'luckystrike-bg': "url('/images/luckystrike.png')",
-        'luckystrike-bg': "url('/images/luckystrike.png')",
         'nightmovers-bg': "url('/images/nightmovers.png')",}),
        colors: {
         white: '#fff',

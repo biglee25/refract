@@ -66,11 +66,11 @@ export default function Navbar() {
                                     <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Home</a>
                                 </Link>
                             </li>
-                            <li className="px-4">
+                            {/* <li className="px-4">
                                 <Link href="/about">
                                     <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>About</a>
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="px-4">
                                 <Link href="/work">
                                         <a className="text-blue-300" onClick={() => setTimeout(() => {setOpen(false)}, 150)}>Work</a>

@@ -8,7 +8,7 @@ export default function Work() {
                 <h2 className='md:mt-12 md:w-3/4 mx-auto text-blue-300 text-5xl md:text-8xl'>My Recent Work</h2>
             
            
-            <p className='text-black py-6 md:w-3/4 mx-auto'>Below you will find a small selection of the recent work I have completed. You will find more on my work page.</p>
+            <p className='text-black py-6 md:w-3/4 mx-auto'>Below are examples of my work, including both client projects and personal creative work.</p>
             
            
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center mx-auto'>

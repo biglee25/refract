@@ -9,7 +9,7 @@ module.exports = {
         'jack-bg': "url('/images/jack-about.png')",
         'adidas-bg': "url('/images/adidas.png')",
         'nike-bg': "url('/images/nike.png')",
-        'refractvfx-bg': "url('/images/refractvfx.png')",
+        'refract-bg': "url('/images/refract.png')",
         'ffp-bg': "url('/images/ffp.png')",
         'stay-bg': "url('/images/stay.png')",
         'sissi-bg': "url('/images/sissi.png')",

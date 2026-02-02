@@ -9,7 +9,6 @@ module.exports = {
         'jack-bg': "url('/images/jack-about.png')",
         'adidas-bg': "url('/images/adidas.png')",
         'nike-bg': "url('/images/nike.png')",
-        'refract-bg': "url('/images/refract.png')",
         'ffp-bg': "url('/images/ffp.png')",
         'stay-bg': "url('/images/stay.png')",
         'sissi-bg': "url('/images/sissi.png')",
@@ -19,6 +18,7 @@ module.exports = {
         'valorant-bg': "url('/images/valorant.png')",
         'client-bg': "url('/images/client.png')",
         'luckystrike-bg': "url('/images/luckystrike.png')",
+        'refract-bg': "url('/images/refract.png')",
         'nightmovers-bg': "url('/images/nightmovers.png')",}),
        colors: {
         white: '#fff',

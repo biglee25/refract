@@ -19,21 +19,22 @@ export default function Work() {
                     allowFullScreen
                     loading="lazy">
                 </iframe>
-                <iframe src="https://www.youtube.com/embed/y94je44oF3Y?modestbranding=1&rel=0"
+                    <iframe src="https://www.youtube.com/embed/h0AXVhz0tdE?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     loading="lazy">
                 </iframe>
-                <iframe src="https://www.youtube.com/embed/A7BRE_zwUN0?modestbranding=1&rel=0"
+                    <iframe src="https://www.youtube.com/embed/NiTs1nU5wCk?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     loading="lazy">
                 </iframe>
-                <iframe src="https://www.youtube.com/embed/PX8nJccBJsM?modestbranding=1&rel=0"
+
+                <iframe src="https://www.youtube.com/embed/D-zVOQBVKBw?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

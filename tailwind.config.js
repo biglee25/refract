@@ -18,7 +18,9 @@ module.exports = {
         'staycod-bg': "url('/images/staycod.png')",
         'valorant-bg': "url('/images/valorant.png')",
         'client-bg': "url('/images/client.png')",
-       }),
+        'luckystrike-bg': "url('/images/luckystrike.png')",
+        'luckystrike-bg': "url('/images/luckystrike.png')",
+        'nightmovers-bg': "url('/images/nightmovers.png')",}),
        colors: {
         white: '#fff',
         black: '#000',

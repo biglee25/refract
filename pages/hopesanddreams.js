@@ -16,7 +16,7 @@ Our new documentary - Hopes and Dreams - aims to explore this question.
 
 
 
-A question that rages in the headlines, but with little input from students and those directly effected. It's just statistics, numbers on a page. 
+A question that rages in the headlines, but with little input from students and those directly effected. It&aposs just statistics, numbers on a page. 
 
 
 

@@ -15,7 +15,7 @@ export default function Work() {
           
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-left'>
                 <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/adidas">
+                    <Link href="/adidas" passHref legacyBehavior>
                         <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Adidas Motion Graphic</h2>
@@ -24,7 +24,7 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/nike">
+                    <Link href="/nike" passHref legacyBehavior>
                         <div className="bg-nike-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Nike Motion Graphic</h2>
@@ -33,7 +33,7 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/refract">
+                    <Link href="/refract" passHref legacyBehavior>
                         <div className="bg-refract-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Refract VFX Animation</h2>
@@ -51,7 +51,7 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/nightmovers">
+                    <Link href="/nightmovers" passHref legacyBehavior>
                         <div className="bg-nightmovers-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2 className="text-2xl text-black bg-blue-300 p-3">The Night Movers Trailer</h2>
@@ -60,7 +60,7 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/hopesanddreams">
+                    <Link href="/hopesanddreams" passHref legacyBehavior>
                             <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
                                     <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes & Dreams</h2>
@@ -70,7 +70,7 @@ export default function Work() {
                 </div>
             </div>          
             <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/acend">
+                    <Link href="/acend" passHref legacyBehavior>
                             <div className="bg-client-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
                                     <h2 className="text-2xl text-black bg-blue-300 p-3">Client Work</h2>

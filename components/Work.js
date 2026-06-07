@@ -40,7 +40,7 @@ export default function Work() {
                     allowFullScreen
                     loading="lazy">
                 </iframe>
-                                <iframe src="https://www.youtube.com/embed/D-zVOQBVKBw?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
+                <iframe src="https://www.youtube.com/embed/D-zVOQBVKBw?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

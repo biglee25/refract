@@ -19,6 +19,7 @@ module.exports = {
         'client-bg': "url('/images/client.png')",
         'luckystrike-bg': "url('/images/luckystrike.png')",
         'refract-bg': "url('/images/refract.png')",
+        'hopesanddreams-bg': "url('/images/hopesanddreams.png')",
         'nightmovers-bg': "url('/images/nightmovers.png')",}),
        colors: {
         white: '#fff',

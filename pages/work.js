@@ -60,6 +60,16 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/hopesanddreams">
+                            <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes & Dreams</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+            </div>          
+            <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/acend">
                             <div className="bg-client-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
@@ -68,7 +78,6 @@ export default function Work() {
                             </div>
                     </Link>
                 </div>
-            </div>          
         </section>
     </>
   )

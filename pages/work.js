@@ -42,7 +42,7 @@ export default function Work() {
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/luckystrike">
+                    <Link href="/luckystrike" passHref legacyBehavior>
                         <div className="bg-luckystrike-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                             <a>
                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Lucky Strike Trailer</h2>

@@ -69,7 +69,7 @@ export default function Work() {
                     </Link>
                 </div>
             </div>          
-            <div className="flex flex-col items-center cursor-pointer">
+            <div className="flex flex-col items-center cursor-pointer mt-4">
                     <Link href="/acend" passHref legacyBehavior>
                             <div className="bg-client-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>

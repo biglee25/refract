@@ -8,12 +8,8 @@ export default function Acend() {
             
                 <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Client Work</h2>
            
-            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>In this section you will see all of my best client work. The popular gaming organisation
-                Acend contacted me back in January of this year for me to be a part time video editor
-                for 6 months.</p>
-              <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>For me this was a big opportunity to showcase my skills and put into
-                practice what I have learnt in the past 2 years of video editing whilst also gaining
-                valuable experience being a freelance video editor working with a client.</p>     
+            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>In this section you will see all of my best client work. I worked for the popular gaming organisation Acend in January 2021 to produce highlight videos for their many esports teams.</p>
+              <p className='text-black px-5 pb-6 md:w-3/4 mx-auto text-center'>My role consisted of cutting down longer form live streams and selecting their best moments to create highlights reels, while keeping up with current editing trends to keep viewers engaged.</p>     
             
             <div className="text-center">
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center mx-auto'>

@@ -12,7 +12,7 @@ export default function Card() {
     <div>
         <section className="spacer container">
             
-                <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Contact Me</h2>
+                <h2 className='px-5 text-gray-900 text-5xl md:text-8xl text-center'>Contact Me</h2>
         
                 <p className='text-black px-5 pt-6 md:w-3/4 mx-auto text-center'>Please get in touch to discuss anything.</p>
                 <p className='text-black px-5 pb-6 md:w-3/4 mx-auto text-center'>Also, if you like my work, please give me a follow on social media.</p>

@@ -6,7 +6,7 @@ export default function Work() {
     <>
         <section className="spacer container text-center">
             
-                <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>My Work</h2>
+                <h2 className='px-5 text-gray-900 text-5xl md:text-8xl text-center'>My Work</h2>
             
                 <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>In this section you will see all of my best client work. The popular gaming organisation Acend contacted me back in January of 2022 for me to be a part time video editor for 6 months.
                     For me this was a big opportunity to showcase my skills and put into practice what I have learnt in the past 5 years of video editing whilst also gaining valuable experience being a freelance video editor working with a client.</p>
@@ -68,7 +68,25 @@ export default function Work() {
                             </div>
                     </Link>
                 </div>
-            </div>          
+                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/liveevents" passHref legacyBehavior>
+                            <div className="bg-liveevents-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Live Events Reel</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/vfxreel" passHref legacyBehavior>
+                            <div className="bg-vfxreel-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">VFX Reel</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+            </div>
             <div className="flex flex-col items-center cursor-pointer mt-4">
                     <Link href="/acend" passHref legacyBehavior>
                             <div className="bg-client-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">

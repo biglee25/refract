@@ -5,16 +5,17 @@ export default function About() {
     <div>
       <section className="spacer container">
         <div className="m-4 logo-bg text-black">
-            <h2 className='md:px-5 text-blue-300 text-5xl md:text-8xl'>A little about me....</h2>
+            <h2 className='md:px-5 text-gray-900 text-5xl md:text-8xl'>A little about me....</h2>
               <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
-                  <p>I’m a social media video editor and social media manager specialising in short-form, high-impact content for platforms like TikTok, Instagram Reels and YouTube Shorts. I focus on turning raw footage into scroll-stopping videos that hold attention and drive engagement.</p>
+                  <p>I’m a video editor and social media manager specialising in short-form and long-form content. I focus on turning raw footage into high quality videos that hold attention and keep viewers engaged.</p>
                 </div>
                 <div>
-                  <p>With over three years’ experience in social media management and content creation, I understand what actually performs online — from hook writing and pacing, to captions, trends and analytics.</p>
+                  <p>With over 5 years experience in social media management and content creation I understand what performs well online. By creating hooks to keep up with trends and editing videos to match the required specifications.</p>
                 </div>
                 <div>
-                  <p>I don’t just edit clips; I shape content to fit the platform, the brand and the audience. If you’re looking for someone who understands both editing and social media strategy, I’d love to work with you.</p>
+                  <p>I shape content to fit all platforms, brands and audiences. If you’re looking for someone who understands both video editing and social media strategy, I’d love to work with you.
+</p>
                 </div>
               </div>
         </div>

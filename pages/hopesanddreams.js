@@ -8,19 +8,11 @@ export default function Hopesanddreams() {
           
             <h2 className='px-5 text-blue-300 text-5xl md:text-8xl text-center'>Hopes & Dreams - Highlights</h2>
          
-            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Is the University System broken? 
-
-
-
-Our new documentary - Hopes and Dreams - aims to explore this question. 
-
-
-
-A question that rages in the headlines, but with little input from students and those directly effected. It&aposs just statistics, numbers on a page. 
-
-
-
-Our documentary aims to change this - and give voice to the stories of those effected by University - in both good ways and bad.</p>
+            <p className='text-black px-5 py-6 md:w-3/4 mx-auto text-center'>Is the University System broken? Our new documentary ‘Hopes and Dreams’, aims to explore this question. A question that rages in the headlines, but with little input from students and those directly affected,  It’s just statistics, numbers on a page.</p>
+            <p className='text-black px-5 pb-6 md:w-3/4 mx-auto text-center'> Our documentary aims to change this and give a voice to the stories of those affected by University. In a balanced, objective documentary that sheds light on the positive and negative perceptions, experiences, and consequences of University.</p>
+            
+            
+            
           
           <div className="flex flex-col items-center justify-center">
             <iframe src="https://www.youtube.com/embed/9mjW-_mdBIE?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"

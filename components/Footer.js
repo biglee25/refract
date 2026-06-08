@@ -38,7 +38,7 @@ export default function Footer() {
                 />
           </div>
         <h3 className="text-2xl font-light text-center pb-5 text-white">
-          © {new Date().getFullYear()} Refract.com
+          © {new Date().getFullYear()} Jack Attwater. All rights reserved.
           </h3>
     </footer>
   )

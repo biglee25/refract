@@ -20,8 +20,8 @@ module.exports = {
         'luckystrike-bg': "url('/images/luckystrike.png')",
         'refract-bg': "url('/images/refract.png')",
         'hopesanddreams-bg': "url('/images/hopesanddreams.png')",
-        'liveevents-bg': "url('/images/liveevents.png')",
-        'vfxreel-bg': "url('/images/vfxreel.png')",
+        'events-bg': "url('/images/events.png')",
+        'vfx-bg': "url('/images/vfx.png')",
         'nightmovers-bg': "url('/images/nightmovers.png')",}),
        colors: {
         white: '#fff',

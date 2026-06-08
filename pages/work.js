@@ -70,7 +70,7 @@ export default function Work() {
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/liveevents" passHref legacyBehavior>
-                            <div className="bg-liveevents-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                            <div className="bg-events-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
                                     <h2 className="text-2xl text-black bg-blue-300 p-3">Live Events Reel</h2>
                                 </a>
@@ -79,7 +79,7 @@ export default function Work() {
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/vfxreel" passHref legacyBehavior>
-                            <div className="bg-vfxreel-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                            <div className="bg-vfx-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
                                 <a>
                                     <h2 className="text-2xl text-black bg-blue-300 p-3">VFX Reel</h2>
                                 </a>

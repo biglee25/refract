@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <section className="spacer container">
         <div className="m-4 logo-bg text-black">
-            <h2 className='md:px-5 text-gray-900 text-5xl md:text-8xl'>A little about me...</h2>
+            <h2 className='md:px-5 text-gray-900 text-5xl md:text-8xl'>A little about me....</h2>
               <div className="my-12 md:px-5 grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
                   <p>I’m a video editor and social media manager specialising in short-form and long-form content. I focus on turning raw footage into high quality videos that hold attention and keep viewers engaged.</p>

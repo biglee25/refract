@@ -14,6 +14,52 @@ export default function Work() {
                 <p className="pb-12">Please click on the images to see the full brief and video.</p>
           
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-left'>
+                                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/hopesanddreams" passHref legacyBehavior>
+                            <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes & Dreams</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/liveevents" passHref legacyBehavior>
+                            <div className="bg-events-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Live Events Reel</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+                                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/vfxreel" passHref legacyBehavior>
+                            <div className="bg-vfx-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                                <a>
+                                    <h2 className="text-2xl text-black bg-blue-300 p-3">VFX Reel</h2>
+                                </a>
+                            </div>
+                    </Link>
+                </div>
+                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/nightmovers" passHref legacyBehavior>
+                        <div className="bg-nightmovers-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                            <a>
+                                <h2 className="text-2xl text-black bg-blue-300 p-3">The Night Movers Trailer</h2>
+                            </a>
+                        </div>
+                    </Link>
+                </div>
+                <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/luckystrike" passHref legacyBehavior>
+                        <div className="bg-luckystrike-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                            <a>
+                                <h2 className="text-2xl text-black bg-blue-300 p-3">Lucky Strike Trailer</h2>
+                            </a>
+                        </div>
+                    </Link>
+                </div>
+
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/adidas" passHref legacyBehavior>
                         <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
@@ -39,51 +85,6 @@ export default function Work() {
                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Refract VFX Animation</h2>
                             </a>
                         </div>
-                    </Link>
-                </div>
-                <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/luckystrike" passHref legacyBehavior>
-                        <div className="bg-luckystrike-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
-                            <a>
-                                <h2 className="text-2xl text-black bg-blue-300 p-3">Lucky Strike Trailer</h2>
-                            </a>
-                        </div>
-                    </Link>
-                </div>
-                <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/nightmovers" passHref legacyBehavior>
-                        <div className="bg-nightmovers-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
-                            <a>
-                                <h2 className="text-2xl text-black bg-blue-300 p-3">The Night Movers Trailer</h2>
-                            </a>
-                        </div>
-                    </Link>
-                </div>
-                <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/hopesanddreams" passHref legacyBehavior>
-                            <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
-                                <a>
-                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes & Dreams</h2>
-                                </a>
-                            </div>
-                    </Link>
-                </div>
-                <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/liveevents" passHref legacyBehavior>
-                            <div className="bg-events-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
-                                <a>
-                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Live Events Reel</h2>
-                                </a>
-                            </div>
-                    </Link>
-                </div>
-                <div className="flex flex-col items-center cursor-pointer">
-                    <Link href="/vfxreel" passHref legacyBehavior>
-                            <div className="bg-vfx-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
-                                <a>
-                                    <h2 className="text-2xl text-black bg-blue-300 p-3">VFX Reel</h2>
-                                </a>
-                            </div>
                     </Link>
                 </div>
             </div>

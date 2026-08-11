@@ -22,7 +22,9 @@ module.exports = {
         'hopesanddreams-bg': "url('/images/hopesanddreams.png')",
         'events-bg': "url('/images/events.png')",
         'vfx-bg': "url('/images/vfx.png')",
-        'nightmovers-bg': "url('/images/nightmovers.png')",}),
+        'nightmovers-bg': "url('/images/nightmovers.png')",
+        'darts-bg': "url('/images/darts.png')",
+        'rugerfjord-bg': "url('/images/rugerfjord.png')",}),
        colors: {
         white: '#fff',
         black: '#000',

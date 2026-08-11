@@ -12,7 +12,21 @@ export default function Work() {
             
            
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center mx-auto'>
-                 <iframe src="https://www.youtube.com/embed/9mjW-_mdBIE?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
+                 <iframe src="https://www.youtube.com/embed/ExLO0SIyBls?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                 <iframe src="https://www.youtube.com/embed/Sf6DDi1XpO4?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
+                    className="w-full h-96 mx-auto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy">
+                </iframe>
+                <iframe src="https://www.youtube.com/embed/C7cVBtoExGg?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -20,21 +34,6 @@ export default function Work() {
                     loading="lazy">
                 </iframe>
                 <iframe src="https://www.youtube.com/embed/deWgIHzAqQ4?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
-                    className="w-full h-96 mx-auto"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy">
-                </iframe>
-                                    <iframe src="https://www.youtube.com/embed/NiTs1nU5wCk?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
-                    className="w-full h-96 mx-auto"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy">
-                </iframe>
-
-                    <iframe src="https://www.youtube.com/embed/h0AXVhz0tdE?autoplay=0&mute=0&controls=1&showinfo=1&rel=0"
                     className="w-full h-96 mx-auto"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

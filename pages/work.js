@@ -14,13 +14,40 @@ export default function Work() {
                 <p className="pb-12">Please click on the images to see the full brief and video.</p>
           
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-left'>
-                                <div className="flex flex-col items-center cursor-pointer">
+                 <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/rugerfjord" passHref legacyBehavior>
+                         <div className="bg-rugerfjord-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                             <a>
+                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Ruger Fjord</h2>
+                             </a>
+                         </div>
+                    </Link>
+                </div>
+                 <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/darts" passHref legacyBehavior>
+                         <div className="bg-darts-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                             <a>
+                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Dan Coates Darts</h2>
+                             </a>
+                         </div>
+                    </Link>
+                </div>
+                 <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/hopespromo" passHref legacyBehavior>
+                         <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                             <a>
+                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes and Dreams Promo</h2>
+                             </a>
+                         </div>
+                    </Link>
+                </div>
+                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/hopesanddreams" passHref legacyBehavior>
-                            <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
-                                <a>
-                                    <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes & Dreams</h2>
-                                </a>
-                            </div>
+                         <div className="bg-hopesanddreams-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                             <a>
+                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Hopes & Dreams</h2>
+                             </a>
+                         </div>
                     </Link>
                 </div>
                 <div className="flex flex-col items-center cursor-pointer">
@@ -59,7 +86,6 @@ export default function Work() {
                         </div>
                     </Link>
                 </div>
-
                 <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/adidas" passHref legacyBehavior>
                         <div className="bg-adidas-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">

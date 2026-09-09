@@ -1,7 +1,7 @@
 import Link from'next/link'
 
 
-export default function ManchesterCity() {
+export default function mancity() {
   return (
     <>
         <section className="spacer container">

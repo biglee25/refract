@@ -25,6 +25,7 @@ module.exports = {
         'nightmovers-bg': "url('/images/nightmovers.png')",
         'darts-bg': "url('/images/darts.png')",
         'stockport-bg': "url('/images/stockport.jpeg')",
+        'mancity-bg': "url('/images/man city.jpeg')",
         'rugerfjord-bg': "url('/images/rugerfjord.png')",}),
        colors: {
         white: '#fff',

@@ -14,6 +14,16 @@ export default function Work() {
                 <p className="pb-12">Please click on the images to see the full brief and video.</p>
           
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-left'>
+                                 <div className="flex flex-col items-center cursor-pointer">
+                    <Link href="/mancity" passHref legacyBehavior>
+                         <div className="bg-mancity-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">
+                             <a>
+                                 <h2 className="text-2xl text-black bg-blue-300 p-3">Manchester City FC Promo</h2>
+                             </a>
+                         </div>
+                    </Link>
+                </div>
+
                  <div className="flex flex-col items-center cursor-pointer">
                     <Link href="/stockport" passf legacyBehavior>
                          <div className="bg-stockport-bg bg-no-repeat bg-cover bg-center text-white w-full h-96 flex items-start justify-start p-5">

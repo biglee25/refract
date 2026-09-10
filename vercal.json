@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://jackattwater.framer.ai",
+      "permanent": true
+    }
+  ]
+}
